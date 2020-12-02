@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 auto;
+}
+.container {
+ 
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: 700;
+}
+.h2_logo {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 27.58px;
+  margin-right: 439px;
+  margin-left: 20px;
+}
+
+.wrapper {
+  width: 1185px;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+ul > a > li {
+  font-size: 16px;
+  width: 100px;
+  white-space: nowrap;
+  margin-right: 38px;
+  color: #202020;
+  font-weight: 700;
+  line-height: 16.09px;
+  text-align: center;
+}
+ul > a > li:hover {
+  color: #fff;
+  background-color: #5528ff;
+  border-radius: 5px;
+  padding: 4.5px 13px 4.5px 13px;
+}
+ul > a > li:last-child {
+    width: 120px;
+    padding: 4.5px 13px 4.5px 13px;
+}
+.title {
+  margin-top: 117px;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 65px;
+  text-align: left;
+}
+.sup_title {
+  margin-top: 35px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 51.48px;
+  color: #4f4f4f;
+}
+.button {
+  margin-top: 70px;
+  width: 235px;
+  padding: 16px 58px 11px 58px;
+  background-color: #5228ff;
+  text-align: center;
+  border-radius: 10px;
+}
+.btn_a {
+  color: #fff;
+  font-size: 24px;
+  line-height: 27.58px;
+}
+.our_clients{
+  margin-top: 100px;
+  display: flex;
+  margin-left: -355px;
+  
+  
+}
+.grei__line_1{
+
+}
+.span_grei{
+  margin-left: 19px;
+  margin-right: 39px;
+}
+.grei__line_2{
+
+}
+.sec_2{
+  margin-top: 108px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 0;
+  /* margin-left: 100px; */
+}
+.colomn{
+  flex:1 1 50%;
+  display: flex;
+  margin-bottom: 82px;
+  
+   
+  
+}
+.column_2{
+  padding-left: 80px;
+  padding-bottom: 0px;
+}
+.column_4{
+  padding-left: 80px;
+ 
+}
+
+.img_1{
+  margin-right: 69px;
+  margin-left: 45px;
+}
+.img_2{
+  margin-right: 44px;
+}
+.img_3{
+  margin-right: 48px;
+  margin-left: 20px;
+}
+.img_4{
+  margin-right: 60px;
+  margin-left: 20px; 
+}
+h3 {
+  
+  font-size: 28px;
+  line-height: 32.17px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+.sec2{
+  font-weight: 400;
+  line-height: 16.09px;
+}
+.sec3_img{
+ margin-left: -160px;
+}
+.out_team{
+  margin-bottom: 50px;
+  margin-top: 109px;
+  margin-left: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.column_team{
+  display: flex;
+  flex-basis: 33%;
+  flex-shrink: 1;
+  margin-right: px;
+  margin-bottom: 60px;
+  
+
+}
+
+h4{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32.17px;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 35px;
+}
+.p_sec4{
+  font-weight: 400;
+  line-height: 16.09px;
+  color: #b2b2b2;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 35px;
+  
+}
+.column_text{
+  white-space: nowrap;
+}
+footer{
+  margin-left: -360px;
+  width: 1905px;
+  background: #F7F7F7;
+  margin-top: 24px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer_logo{
+  margin-left: 477px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.footer_icon{
+  display:flex;
+  margin-right: 330px;
+}
+.footer_link{
+  margin-right: 40px;
+}
+.link1{
+ margin-top: 38px;
+ margin-bottom: 40px;
+}
+.link2{
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.link3{
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
+.link4{
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
